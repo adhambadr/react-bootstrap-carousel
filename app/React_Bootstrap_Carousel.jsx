@@ -24,6 +24,7 @@ export class React_Bootstrap_Carousel extends React.Component {
       className:classNames("carousel slide",this.props.className),
       animation:this.props.animation,
     }
+    console.log("React boostrap carousel Forked version");
   }
   componentDidUpdate(prevProps, prevState) {
     if(this.props.children.length>0){
